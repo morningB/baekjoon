@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+       int a=s.nextInt();
+       int b=s.nextInt();
+
+       a=(a%10)*100 + ((a%100)/10) *10 +(a/100);
+       b=(b%10)*100 + ((b%100)/10) *10 +(b/100);
+       if(a>b)
+           System.out.println(a);
+       else
+           System.out.println(b);
+      
+
+    }
+}
